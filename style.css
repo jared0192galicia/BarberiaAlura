@@ -1,5 +1,23 @@
+header nav{
+
+}
 .titulo-principal{
     padding-left: 30px;
+}
+nav {
+    width: 940px;
+    margin: 0 auto;
+}
+nav li{
+    /* Coloca la lista en formato corrido uno despues de otro */
+    display: inline-block;
+    /* Agrega margen entre cada elemento de la lista */
+    margin: 0 0 0 15px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
 
 #banner{

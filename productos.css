@@ -1,10 +1,8 @@
-header img {
-    position: absolute;
-    top: auto;
-    left: 60px;
-}
+
 header {
     background-color: #BBBBBB;
+    /* margenes internos: 20px arriba y abajo. 10% derecha izquierda */
+    padding: 20px 10%;
 }
 
 nav li {
@@ -13,14 +11,69 @@ nav li {
 }
 
 nav a {
+    /* Letras mayusculas */
     text-transform: uppercase;
     color: black;
+    /* Tipo de letra negrita y tamaño de 22px */
     font-weight: bold;
     font-size: 22px;
+    /* Sin decoraciones de subrayado de hipervinculo */
     text-decoration: none;
+}
+nav a:hover{
+    color: aquamarine;
+    text-decoration: underline;
 }
 nav {
     position: absolute;
-    top: 100px;
+    top: 130px;
     left: 50%;
+}
+#productos {
+    width: 940px;
+    margin: 0 auto;
+    padding-top: 50px;
+
+}
+#productos li {
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    /*background: #CCCCCC; */
+    margin: 0 1.5%;
+    /* margen inteno Vertical Horizontal */
+    padding: 30px 20px;
+    /* El borde de cada item sera el limite del espacio definido */
+    box-sizing: border-box;
+    /* Definiendo borde */
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    /* El borde se simplifica con: border: 2px solid black; */
+    /* generando esquina redondeada del borde */
+    border-radius: 10px;
+}
+#productos li:hover {
+    border-color: goldenrod;
+    font-size: 33px;
+}
+#productos li:hover h2{
+    font-size: 33px;
+}
+#productos li:active {
+    border-color: #088c19;
+}
+#productos h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.producto-precio{
+    font-size: 20;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.producto-descripcion{
+    font-size: 18px;
 }
