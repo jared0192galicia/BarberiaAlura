@@ -21,13 +21,16 @@ nav a {
     text-decoration: none;
 }
 nav a:hover{
-    color: aquamarine;
+    color: cadetblue;
     text-decoration: underline;
 }
 nav {
     position: absolute;
     top: 130px;
     left: 50%;
+}
+main {
+    padding-bottom: 50px;
 }
 #productos {
     width: 940px;
@@ -76,4 +79,14 @@ nav {
 }
 .producto-descripcion{
     font-size: 18px;
+}
+footer {
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+.copyright{
+    font-size: 13px;
+    color: whitesmoke;
+    margin: 20px;
 }

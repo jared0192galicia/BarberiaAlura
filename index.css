@@ -1,25 +1,36 @@
-header nav{
-
+header {
+    padding-bottom: 50px;
+    background-color: #CCCCCC;
 }
 .titulo-principal{
-    padding-left: 30px;
+    padding-top: 30px;
+    padding-left: 60px;
+    font-weight: bold;
 }
 nav {
-    width: 940px;
-    margin: 0 auto;
+    position: absolute;
+    top: 50px;
+    left: 30%;
 }
 nav li{
     /* Coloca la lista en formato corrido uno despues de otro */
-    display: inline-block;
+    display: inline;
     /* Agrega margen entre cada elemento de la lista */
     margin: 0 0 0 15px;
+}
+nav a {
     text-transform: uppercase;
     color: black;
-    font-weight: bold;
     font-size: 22px;
+    font-weight: bold;
     text-decoration: none;
 }
 
+nav a:hover {
+    color: cadetblue;
+    font-size: 25px;
+    text-decoration: underline;
+}
 #banner{
     width:100%;
 }
@@ -54,7 +65,7 @@ em strong{
     font-style: italic;
 }
 
-ul{
+#ul-desc{
     display: inline-block;
     vertical-align: top;
     width: 20%;

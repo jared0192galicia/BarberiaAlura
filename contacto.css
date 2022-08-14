@@ -1,0 +1,17 @@
+main h1 {
+    padding: 16% 45%;
+}
+footer img{
+    max-width: 40px;
+    max-height: 40px;
+    margin-left: 60px;
+}
+.email{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.email:hover{
+    color: cadetblue;
+    font-size: 16px;
+}
